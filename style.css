@@ -342,13 +342,14 @@ h1, h2, h3 {
   height: 65vh;
   min-height: 400px;
   overflow: hidden;
+  border-radius: var(--r-lg);
 }
 
 .hero__photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 30%;
 }
 
 .hero__content {
@@ -836,7 +837,7 @@ h1, h2, h3 {
 
   .hero {
     display: grid;
-    grid-template-columns: 55fr 45fr;
+    grid-template-columns: 40fr 60fr;
     min-height: 100vh;
   }
 
@@ -845,6 +846,8 @@ h1, h2, h3 {
     top: 0;
     height: 100vh;
     min-height: 100vh;
+    max-width: 560px;
+    padding: var(--s-8);
   }
 
   .hero__content {
